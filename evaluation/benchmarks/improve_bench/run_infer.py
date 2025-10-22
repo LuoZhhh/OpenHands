@@ -388,7 +388,7 @@ if __name__ == '__main__':
         '--papers-csv',
         type=str,
         required=True,
-        help='CSV file containing paper information (columns: instance_id, title, paper_path, reviews_path, github_repo)'
+        help='CSV file containing paper information (columns: instance_id, title, paper_path, reviews_path, repo_path)'
     )
     args, _ = parser.parse_known_args()
 
